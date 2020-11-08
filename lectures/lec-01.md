@@ -33,7 +33,7 @@ Here, the machine receives an input. Then, a 4 step process is carried out:
 ## What is a program?
 A program is a collection of instructions that performs a specific task when executed by a computer. These are written using programming languages — which are mechanical and not natural, and therefore unambiguous.
 
-### Levels of Programming Languages**
+### Levels of Programming Languages
 **High Level Language**
 High Level Languages are english-like and easier to work with. We code using high-level languages like Java, Python, C++. Requires a compiler to generate object code.
 ``` System.out.println("This is High Level Language"); ```
