@@ -17,13 +17,14 @@ The most important principle of the Unix File System is that ***everything is a 
 Even the terminal — ```stdin``` and ```stdout``` are also files, input and output.
 
 
-### Path of a file in UNIX
+## Path of a file in UNIX
 **1. Absolute:** tells us how to reach a file from ```root```. Always begins with /
 
 **2. Relative:** tells how to reach a file from ```current_repository```. Never begins with /
 
 
-In the directory tree in the section above:
+
+### In the directory tree in the section above:
 
 Absolute path to private: ```/home/mkl/private```
 
