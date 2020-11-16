@@ -69,10 +69,10 @@ It is used to find out number of lines, word count, byte and characters count in
 By default it displays four-columnar output.
 First column shows number of lines present in a file specified, second column shows number of words present in the file, third column shows number of characters present in file and fourth column itself is the file name which are given as argument.
 
-
 11) man
 man command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS and SEE ALSO.
 
+12) ls
 
 ## Grep Command (Global Search for the Regular Expression)
 Grep Command in Unix with Examples
@@ -122,6 +122,8 @@ $ grep -i “hello”
 
 
 ## Pipe Command
+output of command becomes input of next command
+
 Let us now see an Example of using pipes to print out a sorted list of unique words. If file1 has a list of words in a random order with random repetitions, then the following piping can be used to achieve this.
 
 $ sort file1 | uniq > file2
