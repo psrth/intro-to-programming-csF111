@@ -6,3 +6,4 @@ This is a repository to encapsulate everything covered in BITS Pilani's Intro to
 If you want to collaborate, just open a PR and add onto the notes taken. Please try to be as concise as possible.
 
 ### Parth Sharma (@psrth), 8th November, 2020
+# intro-to-react-redux
