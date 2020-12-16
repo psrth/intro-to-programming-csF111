@@ -18,6 +18,7 @@
 
 ## How do we make a flowchart?
 | Steps | Task |
+| --- | --- |
 | Step 1 | Identify the IO streams |
 | Step 2 | Apply reasoning skills to solve the problem|
 | Step 3 | Draw the flowchart using appropriate symbols and arrows to show sequence of steps required tosolve the problem|

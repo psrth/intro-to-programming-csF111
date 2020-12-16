@@ -9,6 +9,7 @@ A simple switch in boolean/binary systems can be represented by **ON 1** or **OF
 
 For an `n` number of bits, we can represent decimal numbers upto:
 | **Number of bits** | **Upper Limit of Decimal Representation** |
+| --- | --- |
 | 1 | 1 |
 | 2 | 3 |
 | 3 | 7 |
@@ -44,6 +45,8 @@ Negative Numbers: **MSB = 1**
 ### 1's Complement
 Simple representation of a negative number by taking the complement of the postitive number.  
 **Invert all 0s to 1s and vice-versa.**
+| Number | Binary Representation |
+| --- | --- |
 | 15 | 0000 1111 |
 | -15 | 1111 0000 | 
 
@@ -52,10 +55,14 @@ However, this representation is still not perfect — we run into the issue of m
 ### 2's Complement
 Simple representation of a negative number by adding 1 to the complement of the postitive number.  
 **Invert all 0s to 1s and vice-versa. Then add 1.**
+| Number | Binary Representation |
+| --- | --- |
 | 15 | 0000 1111 |
 | 15' | 1111 0000 | 
 | 15'' | 1111 0001 | 
 
+
+## Binary Arithmetic
 
 
 
