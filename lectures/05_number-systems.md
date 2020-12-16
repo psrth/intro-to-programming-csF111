@@ -59,10 +59,56 @@ Simple representation of a negative number by adding 1 to the complement of the 
 | --- | --- |
 | 15 | 0000 1111 |
 | 15' | 1111 0000 | 
-| 15'' | 1111 0001 | 
+| 15'' | 1111 0001 |   
+
+
 
 
 ## Binary Arithmetic
+Binary Arithmetic refers to the algebra of bits.  
+**Binary Bit Addition**
+| Expression | Result |
+| --- | --- |
+| 0 + 0 | 0 |
+| 0 + 1 | 1 |
+| 1 + 0 | 1 |
+| 1 + 1 | 1 0 |  
+
+**Binary Bit Subtraction**
+| Expression | Result |
+| --- | --- |
+| 0 - 0 | 0 |
+| 0 - 1 | 0 1 |
+| 1 - 0 | 1 |
+| 1 - 1 | 0 |  
+
+*Crucially,* the important bits here are the CARRY and BORROW from addition and subtraction respectively.  
+
+### Subtraction with 1's Complement
+1. Write 1' of number to be subtracted
+2. Add it to the first number
+3. In case of a carry over — discard carry, add 1.
+4. In case of no carry over — find 1' of the result and add negative sign.  
+
+`7 - 4 => (0111 - 0100) => (0111 + 1011) => (1 0010) => (0011) => 3`
+`4 - 7 => (0100 - 0111) => (0100 + 1000) => (0 1100) => -(0011) => -3`  
+
+
+### Subtraction with 2's Complement 
+1. Write 2' of number to be subtracted
+2. Add it to the first number
+3. In case of a carry over — discard carry, this is the result.
+4. In case of no carry over — find 2' of the result and add negative sign.  
+
+`4 - 7 => (0100 - 0111) => (0100 + 1001) => (0 1101) => -(0011) => -3`
+`7 - 4 => (0111 - 0100) => (0111 + 1100) => (1 0011) => (0011) => 3`  
+
+
+### Addition with 2's Complement
+**Important:** ensure you have enough bits to store the sum — otherwise an overflow condition can break the computation.
+![overflow](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/overflow.png)  
+
+
 
 
 
