@@ -90,7 +90,7 @@ Binary Arithmetic refers to the algebra of bits.
 3. In case of a carry over — discard carry, add 1.
 4. In case of no carry over — find 1' of the result and add negative sign.  
 
-`7 - 4 => (0111 - 0100) => (0111 + 1011) => (1 0010) => (0011) => 3`
+`7 - 4 => (0111 - 0100) => (0111 + 1011) => (1 0010) => (0011) => 3`  
 `4 - 7 => (0100 - 0111) => (0100 + 1000) => (0 1100) => -(0011) => -3`  
 
 
@@ -100,7 +100,7 @@ Binary Arithmetic refers to the algebra of bits.
 3. In case of a carry over — discard carry, this is the result.
 4. In case of no carry over — find 2' of the result and add negative sign.  
 
-`4 - 7 => (0100 - 0111) => (0100 + 1001) => (0 1101) => -(0011) => -3`
+`4 - 7 => (0100 - 0111) => (0100 + 1001) => (0 1101) => -(0011) => -3`  
 `7 - 4 => (0111 - 0100) => (0111 + 1100) => (1 0011) => (0011) => 3`  
 
 
