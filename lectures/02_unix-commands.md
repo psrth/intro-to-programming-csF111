@@ -34,9 +34,6 @@ Relative path to private, from bin: ```../../home/mkl/private```
 [Fun Optional Read about Unix Directory System](https://www.tau.ac.il/~tsirel/dump/Static/knowino.org/wiki/Unix_directory_structure.html#:~:text=The%20Unix%20directory%20is%20a,of%20a%20set%20of%20subdirectories.)
 
 
-
-wc
-man
 ## General UNIX Commands 
 
 **1. cal:** ```$ cal [month] [year]```
@@ -47,7 +44,6 @@ prints a banner with text written using #
 
 **3. who:** ```$ who```
 returns everyone who is logged in
-
 
 ## File System Commands
 
@@ -62,6 +58,9 @@ It is used to create a file without any content. The file created using touch co
 ```$ cat < [file-name2]```: (std input redirection)???!!!!
 ```$ cat [file-name] >> [file-name2]```: appends content of 2 to 1
 ```$ cat [file-name] [file-name2] > [file-name3]```: new file3 contains content of 1 and 2
+
+wc
+man
 
 #3) cp: 
 Copy files
