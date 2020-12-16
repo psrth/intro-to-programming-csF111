@@ -52,5 +52,3 @@ An Operating System is a layer of software interposed between the application pr
 **What is the difference between Kernel and Shell?**
 The main difference between kernel and shell is that the *kernel is the core of the operating system that controls all the tasks of the system while the shell is the interface that allows the users to communicate with the kernel.*
 Unix is an operating system. It is the interface between the user and the hardware. It performs a variety of tasks including file handling, memory management, controlling hardware devices, process management and many more. Kernel and Shell are two components in Unix architecture. The kernel is the heart of the operating system while Shell is a utility to process user’s requests.
-
-
