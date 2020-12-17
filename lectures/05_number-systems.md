@@ -114,19 +114,17 @@ Binary Arithmetic refers to the algebra of bits.
 The method for fractional parts of the number is *slightly* different. First, convert the **X** part of the decimal into binary as normal. For the fractional **Y** part, keep multiplying by 2 — until we reach the form 1.0 — stripping down the real coefficient (0/1) at each stage and appending it to **X'.**  
 
 *Example:*  
-`
- **(10.6875) = (1010.1011)**  
+```**(10.6875) = (1010.1011)**
 
- X = 1010 (normal conversion)
- Y = 0.6875  
+ X = 1010 (normal conversion) 
  
-   = 1.3750
+ Y = 0.6875 
+   = 1.3750 
    = 0.7500
    = 1.5000
    = 1.0000
- 
-// Considering coeffcient of each term, we get Y = 1011
-`  
+
+// Considering coeffcient of each term, we get Y = 1011```
 
 For the vice-versa binary into decimal, simply use negative powers of 2 starting from -1 for places after the decimal point.
 
