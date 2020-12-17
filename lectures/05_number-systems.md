@@ -116,7 +116,7 @@ The method for fractional parts of the number is *slightly* different. First, co
 *Example:*  
 ```**(10.6875) = (1010.1011)**
 
- X = 1010 (normal conversion) 
+ X = 1010 (normal conversion)  
  
  Y = 0.6875 
    = 1.3750 
@@ -124,7 +124,8 @@ The method for fractional parts of the number is *slightly* different. First, co
    = 1.5000
    = 1.0000
 
-// Considering coeffcient of each term, we get Y = 1011```
+// Considering coeffcient of each term, we get Y = 1011
+```
 
 For the vice-versa binary into decimal, simply use negative powers of 2 starting from -1 for places after the decimal point.
 
