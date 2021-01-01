@@ -66,10 +66,15 @@ Performs operation at a bit level. Represent the number in binary and compare in
 
 | Operation | Significance |
 | --- | --- |
-| `a | b` | Bitwise OR (if either bit is 1) |
+| `a or b` | Bitwise OR (if either bit is 1) |
 | `a & b` | Bitwise AND (both bits are 1) |
 | `a ^ b` | Bitwise XOR (only one bit is 1) |
 | `~a` | Bitwise NOT (reverses the bits) |  
+
+![bit1](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/bit1.png)  
+![bit2](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/bit2.png)  
+![bit3](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/bit3.png)  
+
 
 ### Assignment Operator
 upates the value of the operand.
@@ -93,25 +98,29 @@ In simpler terms, if `A op B`, and evaluation of A tells us what the expression 
 int a = 0, b = 3;
 int I = a++ && ++b; printf(“%d %d %d”, a, b, I);
 ```
-**O/P:** 1, 3, 0
+**O/P:** 1, 3, 0  
+
 
 ```
 int a = 0, b = 3;
 int I = ++a && ++b; printf(“%d %d %d”, a, b, I);
 ```
-**O/P:** 1, 4, 1
+**O/P:** 1, 4, 1  
+
 
 ```
 a = 0, b = 3;
 int I = ++b || ++a; printf(“%d %d %d”, a, b, I);
 ```
-**O/P:** 0, 4, 1
+**O/P:** 0, 4, 1  
+
 
 ```
 a = 0, b = 3;
 int I = a++ || ++b; printf(“%d %d %d”, a, b, I);
 ```
-**O/P:** 1, 4, 1
+**O/P:** 1, 4, 1  
+
 
 ```
 int a = 1, b = 1;
@@ -119,18 +128,21 @@ int c = a || --b;
 int d = a-- && --b;
 printf("a = %d, b = %d, c = %d, d = %d", a, b, c, d);
 ```
-**O/P:** a = 0, b = 0, c = 1, d = 0
+**O/P:** a = 0, b = 0, c = 1, d = 0  
+
 
 ```
 int i=-1, j=-1, k=0, l=2, m;
 m = i++ && j++ && k++ || l++;
 printf("i = %d, j = %d, k = %d, l = %d, m = %d",i,j,k,l,m);
 ```
-**O/P:** i = 0, j = 0, k = 1, l = 3, m = 1
+**O/P:** i = 0, j = 0, k = 1, l = 3, m = 1  
+
 
 ```
 int i=0, j=-1, k=0, l=2, m;
 m = i++ && j++ && k++ || l++;
 printf("i = %d, j = %d, k = %d, l = %d, m = %d",i,j,k,l,m);
 ```
-**O/P:** i = 1, j = -1, k = 0, l = 3, m = 1
+**O/P:** i = 1, j = -1, k = 0, l = 3, m = 1  
+
