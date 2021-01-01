@@ -32,12 +32,14 @@ For this case, we will use `#include <stdio.h>`. By including this header file, 
 ### What are functions?
 A function is a block of code that can be called to execute a set of statements. Multiple programs can use the same function.
 
-`int add(int num1, int num2) {`
-`   int sum;`
-`   sum = num1 + num2;`
+```
+int add(int num1, int num2) {
+   int sum;
+   sum = num1 + num2;
 
-`    return sum;`
-`}`
+    return sum;
+}
+```
 
 
 ### Adding Comments

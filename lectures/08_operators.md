@@ -42,12 +42,14 @@ af % bf = NOT VALID
 | ++a | 6 |
 | a++ | 5 |
 | --a | 4 |
-| a-- | 5 |  
+| a-- | 5 | 
+
 **Prefix:** change value, then use   
 **Postfix:** use, then change value
 
 ### Relational Operators
-**Returns a boolean value (1 true, 0 false)** // same precedence, L->R
+**Returns a boolean value (1 true, 0 false)** // same precedence, L->R  
+
 `a == b` checks whether a is equal to b  
 `a != b` checks whether a is not equal to b  
 `a < b` checks whether a is less than b  
@@ -56,7 +58,8 @@ af % bf = NOT VALID
 `a >= b` checks whether a is greater than equal to b
 
 ### Logical Operators
-**Returns a boolean value (1 true, 0 false)** // same precedence, L->R
+**Returns a boolean value (1 true, 0 false)** // same precedence, L->R  
+
 `expr1 && expr2` Logical AND. Returns true when both operands are non-zero (true)  
 `expr1 || expr2` Logical OR. Returns true when at least one of the operand is non-zero (true)  
 `!(expr)` Logical NOT. Returns true only if the operand is zero (false), and vice versa
@@ -146,3 +149,6 @@ printf("i = %d, j = %d, k = %d, l = %d, m = %d",i,j,k,l,m);
 ```
 **O/P:** i = 1, j = -1, k = 0, l = 3, m = 1  
 
+
+
+### Note: for some reason, the printf() statement is evaluated from right to left — so if you have any operations there, make sure you follow that order (explanation: stack)
