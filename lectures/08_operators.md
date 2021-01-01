@@ -84,7 +84,53 @@ upates the value of the operand.
 `,` has the lowest precedence – used in for loops, variable declaration/initialisation. 
 
 ## Short Circuiting in C
+A short circuit in logic is when it is known for sure that an entire complex condition is either true or false before the evaluation of whole expression. Mainly seen in case of expressions having logical AND(&&) or OR(||).  
 
+In simpler terms, if `A op B`, and evaluation of A tells us what the expression will be, the C compiler will not compile the rest of the expression.  
 
+**Practice Questions**
+```
+int a = 0, b = 3;
+int I = a++ && ++b; printf(“%d %d %d”, a, b, I);
+```
+**O/P:** 1, 3, 0
 
+```
+int a = 0, b = 3;
+int I = ++a && ++b; printf(“%d %d %d”, a, b, I);
+```
+**O/P:** 1, 4, 1
 
+```
+a = 0, b = 3;
+int I = ++b || ++a; printf(“%d %d %d”, a, b, I);
+```
+**O/P:** 0, 4, 1
+
+```
+a = 0, b = 3;
+int I = a++ || ++b; printf(“%d %d %d”, a, b, I);
+```
+**O/P:** 1, 4, 1
+
+```
+int a = 1, b = 1;
+int c = a || --b;
+int d = a-- && --b;
+printf("a = %d, b = %d, c = %d, d = %d", a, b, c, d);
+```
+**O/P:** a = 0, b = 0, c = 1, d = 0
+
+```
+int i=-1, j=-1, k=0, l=2, m;
+m = i++ && j++ && k++ || l++;
+printf("i = %d, j = %d, k = %d, l = %d, m = %d",i,j,k,l,m);
+```
+**O/P:** i = 0, j = 0, k = 1, l = 3, m = 1
+
+```
+int i=0, j=-1, k=0, l=2, m;
+m = i++ && j++ && k++ || l++;
+printf("i = %d, j = %d, k = %d, l = %d, m = %d",i,j,k,l,m);
+```
+**O/P:** i = 1, j = -1, k = 0, l = 3, m = 1
