@@ -64,7 +64,7 @@ void main() {
                         printf("%d of base %d converted to base %d is: %d\n\n", temp, base1, base2, out);
                         break;
             
-            case 6:     exit(0);
+            case 6:     exit(0); 
                         break;
 
             default:    printf("Invalid selection, please try again.");
