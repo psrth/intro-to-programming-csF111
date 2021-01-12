@@ -30,7 +30,7 @@ int isArmstrong(int input) {
     else return 0; // boolean false
 }
 
-// main function
+// main function for checking a user input
 int main () {
      int user_input = 0;
      printf("Enter number: ");
@@ -40,5 +40,18 @@ int main () {
     if(isArmstrong(user_input)) printf("is an Armstrong Number.");
     else printf("is not an Armstrong Number.");
 
+    return 0;
+}
+
+int main2 () {
+     int lower_lim = 0, upper_lim = 0;
+     printf("Enter lower limit: ");
+     scanf("%d", &lower_lim);
+     printf("Enter upper limit: ");
+     scanf("%d", &upper_lim);
+
+    for(int i = lower_lim; i <= upper_lim; i++){
+        if(isArmstrong(i)) printf("%d ", i);
+    }
     return 0;
 }
