@@ -1,3 +1,6 @@
+// Intro to Arrays (1D) Practice Problems
+// @psrth, 14.01.20
+
 #include<stdio.h>
 
 int main() {
@@ -160,3 +163,30 @@ int reverseArray(int arr[], int array_size){
 
     return 0;
 }
+
+/* 
+ * Sample Output
+ * Enter size of array: 10
+ * Enter element 1: 1
+ * Enter element 2: 1
+ * Enter element 3: 2
+ * Enter element 4: 3
+ * Enter element 5: 4
+ * Enter element 6: 5
+ * Enter element 7: 6
+ * Enter element 8: 7
+ * Enter element 9: 8
+ * Enter element 10: 9
+ * Array is: 1 1 2 3 4 5 6 7 8 9 
+ * Sum of all elements is: 46
+ * Size of array is: 10
+ * Copied array is: 1 1 2 3 4 5 6 7 8 9 
+ * Reversed array is: 9 8 7 6 4 5 3 2 1 1 
+ * 1 occurs 2 times in the array.
+ * Largest number is: 9
+ * Smallest number is: 1
+ * Array is: 1 1 2 3 4 5 6 7 8 9 
+ * Even array is: 2 4 6 8 
+ * Odd array is: 1 1 3 5 7 9 
+ * Second largest number is: 8
+*/
