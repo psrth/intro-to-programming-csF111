@@ -74,7 +74,7 @@ Nested Loops are used across two parameters (say, `i` and `j`). The number of ti
 *(easy to visualise each parameter as row and column)*
 
 **Say, we need to print a number triangle, like so:**
-[triangle](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/loop-triangle.png)
+![triangle](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/loop-triangle.png)
 
 ```
 #include<stdio.h>
