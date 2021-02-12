@@ -76,7 +76,7 @@ int main() {
 ### Variable Hiding
 Higher-level values of a variable are over-ridden in C if reinitialised in a new codeblock. For example, with a global variable `int x = 10` and an inner loop variable `int x = 300`, the value printed inside the loop will be `300`.
 
-### Storage Classes in C
+## Storage Classes in C
 ![storage](https://github.com/psrth/intro-to-programming-csF111/blob/main/rsc/storage-classes.png)
 Represents the visibility and a location of a variable. It tells the:
 • The variable’s scope: visibility of the variable, is inside the block { } in which it has been declared.
